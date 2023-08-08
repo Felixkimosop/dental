@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="w-full h-[90vh]">
+    <div id="home" className="w-full h-[90vh]">
       <img
         className="w-full h-full object-cover"
         src="./woman-3498849_1280.jpg"

@@ -2,11 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-[1140px] mx-auto p-4">
+    <div id="about" className="max-w-[1140px] mx-auto p-4">
         <h1 className="text-center text-2xl p-4">About Us</h1>
       <div className="md:grid grid-cols-2  p-4">
         <div className="w-full relative p-4">
-          <img className="rounded-md" src="./orthodontics-6536026_1280.jpg" />
+          <img className="rounded-md" src="./orthodontics-6536026_1280.jpg"  alt="/"/>
           <img className="w-[300px] mt-[-115px] py-2 relative object-cover border-4  border-white shadow-lg rounded-md" src='./dentist-7397734_1280.jpg' alt="/"/>
         </div>
         <div className="w-full text-center">

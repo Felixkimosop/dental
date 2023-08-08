@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <div className='max-w-[1140px] mx-auto p-4 text-center'>
+    <div id='form' className='max-w-[1140px] mx-auto p-4 text-center'>
         <h2 className='text-2xl p-4'>Book An Appointment</h2>
         <form className='md:flex md:justify-between w-full items-center'>
             

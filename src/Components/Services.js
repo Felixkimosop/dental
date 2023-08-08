@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div className="max-w-[1140px] mx-auto md:flex mt-[-75px]">
+    <div id="services" className="max-w-[1140px] mx-auto md:flex mt-[-75px]">
       <div className="relative p-4">
         <h2 className="absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">
           Teeth Cleaning
