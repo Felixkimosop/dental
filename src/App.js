@@ -1,6 +1,7 @@
 import './App.css';
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import Form from './Components/Form';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
@@ -15,6 +16,7 @@ function App() {
     <Form />
     <About />
     <Contact />
+    <Footer />
     </div>
   );
 }
