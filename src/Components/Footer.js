@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='max-w-[1140px] mx-auto '>
+    <div className='max-w-[1140px] mx-auto border-t-2'>
         <div className='md:grid grid-cols-3 justify-between p-4 text-center'>
             <div className=''>
                 <h1 className='text-3xl font-bold text-center '>Dental Clinic</h1>
@@ -27,7 +27,7 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <div className='border-t-4'>
+        <div className='border-t-2'>
         <p className='text-center p-4 text-xl'>© Copyrights Dental Clinic</p>
 
         </div>

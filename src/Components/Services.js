@@ -9,7 +9,7 @@ import "swiper/css/scrollbar";
 
 function Services() {
   return (
-    <div id="services" className="max-w-[1140px] mx-auto md:flex mt-[-75px]">
+    <div id="services" className="max-w-[1140px] mx-auto  md:mt-[-75px]">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
@@ -19,6 +19,7 @@ function Services() {
         scrollbar={{ draggable: true }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
+        className='lg:flex'
       >
         <SwiperSlide>
           {" "}
